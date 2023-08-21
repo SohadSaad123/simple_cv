@@ -1,0 +1,69 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.mynav{
+    border-bottom: 1PX gray solid;
+    background-color: antiquewhite;
+    
+    
+   
+}
+
+.card{
+  
+    background-color: rgb(253, 232, 204);   
+}
+
+.card i{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(169, 171, 174) !important;
+    margin: 10px;
+  }
+
+  #contact{
+    border-top: 1PX gray solid;
+    background-color: antiquewhite;
+  }
+
+  .proj:hover{
+    
+    scale: 1.2;
+  }
+
+ #mainnav .nav-item .nav-link:hover{
+
+    font-weight: 700;
+    border-bottom: 2px black solid;
+    padding-bottom: 3px ;
+  }
+
+  .active{
+
+    font-weight: 700;
+    
+    
+  }
+
+  .sticky{
+      
+      position: fixed;
+      z-index: 10;      
+  }
+
+
+  .gotop{
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(118, 118, 235);
+    color: rgb(65, 65, 3);
+    position: fixed;
+    bottom: 20px;
+    right:30px;
+    padding: 5px 8px ;
+    cursor: pointer;
+    display: none;
+    border-radius: 45%;
+    z-index: 10;
+  }
